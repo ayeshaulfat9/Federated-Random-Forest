@@ -6,7 +6,7 @@ from typing import List
 
 
 def load_dataset(client_id: int):
-    df = pd.read_csv('data.csv')
+    df = pd.read_csv('Arthritis_dataset_original.csv')
 
     X = df.iloc[:, :-1]
     y = df.iloc[:, -1]
